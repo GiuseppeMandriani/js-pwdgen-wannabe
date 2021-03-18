@@ -1,20 +1,68 @@
 // PASSWORD GENERATOR
 
-// 1 PROMPT CHIEDERE NOME
+// FASE 1, Chiedere Nome e cambiare titolo
 
 var firstName = prompt('Nome');
 console.log(firstName);
 
-// 2 PROMPT CHIEDERE COGNOME
+console.log('Welcome' + ' ' + firstName);
+
+document.getElementById('title').innerHTML = 'Welcome' + ' ' + firstName;
+
+
+// FASE 2, Chiedere Cognome
 
 var lastName = prompt('Cognome');
 console.log(lastName);
 
+console.log("Ultimo passaggio" + firstName);
+
+document.getElementById('title').innerHTML = 'Ultimo passaggio' + ' ' + firstName;
+
+
+// FASE 3, Chiedere colore preferito e inserire password
+
+var color = prompt('Colore Preferito');
+console.log(color);
+
+
+
+document.getElementById('all').innerHTML = 'La password generata per te è ';
+
+document.getElementById('passw').innerHTML = firstName + lastName + color;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 1 PROMPT CHIEDERE NOME
+
+/*var firstName = prompt('Nome');
+console.log(firstName);*/
+
+// 2 PROMPT CHIEDERE COGNOME
+
+/*var lastName = prompt('Cognome');
+console.log(lastName);*/
+
 // 3 PROMPT CHIEDERE ANNI
 
-var age = parseInt(prompt('Quanti anni hai?')); 
+/*var age = parseInt(prompt('Quanti anni hai?')); 
 console.log(age);
-console.log(typeof(age));
+console.log(typeof(age));*/
 
 
 
