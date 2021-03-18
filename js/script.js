@@ -9,6 +9,11 @@ console.log('Welcome' + ' ' + firstName);
 
 document.getElementById('title').innerHTML = 'Welcome' + ' ' + firstName;
 
+document.getElementById('all').innerHTML = 'Inserisci i tuoi dati per generare una password ';
+
+
+
+
 
 // FASE 2, Chiedere Cognome
 
@@ -18,6 +23,8 @@ console.log(lastName);
 console.log("Ultimo passaggio" + firstName);
 
 document.getElementById('title').innerHTML = 'Ultimo passaggio' + ' ' + firstName;
+document.getElementById('all').innerHTML = 'Continua, ci siamo quasi ';
+
 
 
 // FASE 3, Chiedere colore preferito e inserire password
@@ -30,6 +37,8 @@ console.log(color);
 document.getElementById('all').innerHTML = 'La password generata per te è ';
 
 document.getElementById('passw').innerHTML = firstName + lastName + color;
+
+document.getElementById('title').innerHTML = 'Perfect!!!!!';
 
 
 
