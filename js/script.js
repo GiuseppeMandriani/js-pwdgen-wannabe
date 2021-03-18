@@ -32,13 +32,19 @@ document.getElementById('all').innerHTML = 'Continua, ci siamo quasi ';
 var color = prompt('Colore Preferito');
 console.log(color);
 
+console.log(firstName + lastName + color);
+
 
 
 document.getElementById('all').innerHTML = 'La password generata per te è ';
 
 document.getElementById('passw').innerHTML = firstName + lastName + color;
 
+document.getElementById("passw").style.color = "#b0d6b0";
+
 document.getElementById('title').innerHTML = 'Perfect!!!!!';
+
+// document.getElementById("title").style.color = "Green";
 
 
 
